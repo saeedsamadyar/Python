@@ -5,8 +5,8 @@
   #complex
   #tuple
   #dict
-  #set
-  #bytes
+  ##set
+  ##bytes
 
 
 i = 2
