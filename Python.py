@@ -38,3 +38,10 @@ print(thistuple)
 i = 5
 print(type(i))
 print(i)
+#-----------------------------------
+
+hello = "My name is john"
+print("hello")
+#----------------------------------
+name = input("Enter your name:")
+print("hi ", name)
