@@ -33,3 +33,8 @@ print(thistuple)
 #-----------------------------------
 thistuple = ("orange")
 print(thistuple)
+#-----------------------------------
+
+i = 5
+print(type(i))
+print(i)
