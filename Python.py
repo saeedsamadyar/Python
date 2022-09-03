@@ -29,3 +29,7 @@ print(s)
 
 thistuple = ("apple", "banana", "cherry")
 print(thistuple)
+
+#-----------------------------------
+thistuple = ("orange")
+print(thistuple)
