@@ -101,3 +101,18 @@ print(x)
 print(y)
 print(z)
 # ------------------------------------
+x = 30
+y = 67
+result = x+y
+print(result)
+# ------------------------------------
+x = 20
+y = 100
+result = x*y
+print(result)
+# -----------------------------------
+x = 13
+y = 10
+result = x//y
+print(result)
+
