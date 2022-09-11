@@ -122,6 +122,8 @@ print(var[4])
 print(var[3])
 print(var[1])
 print(var[0])
+print(var[1:3])
+# -------------------------------------
 
 
 
