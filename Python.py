@@ -115,4 +115,14 @@ x = 13
 y = 10
 result = x//y
 print(result)
+# -----------------------------------
+#string
+var = "Saeed"
+print(var[4])
+print(var[3])
+print(var[1])
+print(var[0])
+
+
+
 
