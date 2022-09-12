@@ -263,10 +263,14 @@ print(letter)
 stg = ['get','certified','get','ahead']
 # ------------------------------------
 mix = [1,6,"IAmSaeed","get","certified"]
+mix[3]
+mix[-2]
+mix[:3]
 print(mix)
 # ------------------------------------
 mat = [[1,2],['a','b']]
 print(mat)
 # -------------------------------------
+
 
 
