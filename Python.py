@@ -277,8 +277,10 @@ print(z)
 var = list("hey there")
 print(var)
 # ------------------------------------
+#numbers
 x = [9,17,14,4,90,55]
 len(x)
 min(x)
 max(x)
 sum(x)
+
