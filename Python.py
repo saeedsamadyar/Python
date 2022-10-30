@@ -286,3 +286,7 @@ sum(x)
 sum(x)
 #### --------------------------------------
 sum(x)
+#------------------------------------------
+#NewProject
+age = input("how old are you:")
+print("your age is ",age, "yes")
