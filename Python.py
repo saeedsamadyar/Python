@@ -292,6 +292,10 @@ age = input("how old are you:")
 print("your age is ",age, "yes")
 #--------------------------------------------
 print('-----------------------------')
-print(type(180))
-print(type(182.5))
-print(type(149j))
+print(type(180))                         # this is integere
+print(type(182.5))                       # this is float
+print(type(149j))                        # this is complex
+# --------------------------------------------
+x = '125'
+print(int(x))
+print(type(x))
