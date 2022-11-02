@@ -299,3 +299,9 @@ print(type(149j))                        # this is complex
 x = '125'
 print(int(x))
 print(type(x))
+# -----------------------------------------------
+name = "SAEED"
+lastname = "SA"
+City = "NYC"
+Z = name +" "+lastname+" "+ City
+print(Z)
