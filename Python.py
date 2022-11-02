@@ -8,6 +8,8 @@
 ###set
 ###bytes
 ##--------------------------------------
+# import saeed as saeed
+
 i = 2
 print(type(i))
 print(i)
@@ -303,5 +305,14 @@ print(type(x))
 name = "SAEED"
 lastname = "SA"
 City = "NYC"
-Z = name +" "+lastname+" "+ City
+# Z = name +" "+lastname+" "+ City
+Z = f'{name} {lastname} {City}'     #format string
 print(Z)
+# ------------------------------------------------
+age  = 33
+txt = "my age is:" + str(age)
+print(txt)
+# ------------------------------------------------
+me  = f'my name is { name} and my last name is { lastname} '
+print(me)
+# --------------------------------------------------
