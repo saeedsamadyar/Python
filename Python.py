@@ -291,3 +291,7 @@ sum(x)
 age = input("how old are you:")
 print("your age is ",age, "yes")
 #--------------------------------------------
+print('-----------------------------')
+print(type(180))
+print(type(182.5))
+print(type(149j))
