@@ -1,2 +1,3 @@
-#first Code
-Print("saeed")
+#FirstCode
+
+print('Hello World.!')
