@@ -55,5 +55,6 @@ txt  = "william is from NYC"
 # print(txt.capitalize())
 # print(txt.count('william is'))
 # print(txt.index("i"))
-print(txt.count("wi"))
-
+# print(txt.count("wi"))
+print(txt.upper())
+print(txt.lower())
