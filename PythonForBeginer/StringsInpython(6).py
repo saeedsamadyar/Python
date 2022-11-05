@@ -50,6 +50,10 @@ print(txt)
 
 print('---------------------------')
 
-
-
+#methods
+txt  = "william is from NYC"
+# print(txt.capitalize())
+# print(txt.count('william is'))
+# print(txt.index("i"))
+print(txt.count("wi"))
 
