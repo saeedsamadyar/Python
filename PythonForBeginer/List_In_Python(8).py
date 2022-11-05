@@ -18,3 +18,12 @@ print('-------------------------------')
 name = "John Booker"
 print(len(name))
 
+print('-------------------------------')
+
+melist = ["John","James","Sarah","William","Sofia"]
+#print(melist[2])
+#print(type(melist[2]))
+print(melist[3:6])
+print(melist[2:])
+print(melist[-1])
+print(melist[-1:-3])
