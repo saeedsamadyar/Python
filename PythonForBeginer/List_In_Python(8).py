@@ -26,4 +26,4 @@ melist = ["John","James","Sarah","William","Sofia"]
 print(melist[3:6])
 print(melist[2:])
 print(melist[-1])
-print(melist[-1:-3])
+print(melist[-3:-1])
