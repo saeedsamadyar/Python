@@ -41,7 +41,24 @@ print(mylist)
 print('-------------------------------')
 
 All_list = ["John","william","Nik","Nazanin","Booker",]
+print(len(All_list))
 All_list[1:3] = ["saeed"],["kan"]
 All_list.insert(3, "kamdin")
+print(len(All_list))
 print(All_list)
 
+print('---------------------------------')
+
+me_list = ["John","william","Nik","Nazanin","Booker",]
+me_list.append(True)
+me_list.append(4)
+me_list.append("Julia")
+print(me_list)
+
+print('---------------------------')
+
+friendlist = ["John","william","Nik","Nazanin","Booker",]
+newfriends = ["Robi","Sofia","mohammed","Roya","Saeed"]
+friendlist.insert(2,"Roein")                      #Add Item
+newfriends.extend(friendlist)                     #Mix Lists
+print(newfriends)
