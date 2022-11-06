@@ -28,5 +28,10 @@ print(melist[2:])
 print(melist[-1])
 print(melist[-3:-1])
 # ---------------------------------------------
-# ---------------------------------------------
+print("----------------------------------------")
+# change List Items
+
+mylist = ["Black","Red","Curple","orange","yellow","white"]
+mylist[2] = "red"
+print(mylist)
 
