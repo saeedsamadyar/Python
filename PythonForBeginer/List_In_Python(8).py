@@ -42,5 +42,6 @@ print('-------------------------------')
 
 All_list = ["John","william","Nik","Nazanin","Booker",]
 All_list[1:3] = ["saeed"],["kan"]
+All_list.insert(3, "kamdin")
 print(All_list)
 
