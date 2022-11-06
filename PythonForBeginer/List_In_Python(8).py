@@ -32,6 +32,15 @@ print("----------------------------------------")
 # change List Items
 
 mylist = ["Black","Red","Curple","orange","yellow","white"]
-mylist[2] = "red"
+print(len(mylist))
+mylist[2] = ["red"]
+mylist[1:3] = ["white"]
+print(len(mylist))
 print(mylist)
+
+print('-------------------------------')
+
+All_list = ["John","william","Nik","Nazanin","Booker",]
+All_list[1:3] = ["saeed"],["kan"]
+print(All_list)
 
