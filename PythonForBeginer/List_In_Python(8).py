@@ -51,7 +51,7 @@ print('---------------------------------')
 
 me_list = ["John","william","Nik","Nazanin","Booker",]
 me_list.append(True)
-me_list.append(4)
+me_list.append(4)          #Add Item
 me_list.append("Julia")
 print(me_list)
 
@@ -62,3 +62,41 @@ newfriends = ["Robi","Sofia","mohammed","Roya","Saeed"]
 friendlist.insert(2,"Roein")                      #Add Item
 newfriends.extend(friendlist)                     #Mix Lists
 print(newfriends)
+
+print('-----------------------------')
+
+frinds = ["James","william","Jone"]
+frinds.remove("Jone")                 #remove Item
+#frinds.pop(1)                        #index
+#or
+del frinds[1]                         #index
+frinds.clear()                        #clear all list
+print(frinds)
+
+print('----------------------------')
+#sort list
+
+myfriends = ['Jaan','willian','jessi','saeed']
+print(myfriends)
+numbers = [22,29,87,23,27]
+print(numbers)
+myfriends.sort()
+numbers.sort()
+numbers.sort(reverse=True)
+print(myfriends)
+print(numbers)
+
+print('-----------------------------')
+
+firstlist = ["John","william","Nik","Nazanin","Booker",]
+secondlist = ["Robi","Sofia","mohammed","Roya","Saeed"]
+firstlist = secondlist.copy()            #copy list
+print(firstlist)
+
+print('-----------------------------')
+
+first_list = ["John","william","Nik","Nazanin","Booker",]
+second_list = [0,1,2,3,4,5,6,7,8,9]
+last_list = first_list + second_list
+print(last_list)
+
