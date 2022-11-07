@@ -6,8 +6,12 @@ print(sets)
 
 print('---------------------------')
 
-myset = {'william','John','Saeed','Booker',''}
-print('william' in myset)
-myset.add("James")
+myset = {'william','John','Saeed','Booker'}
+myset2 = {'Mohammed','Saeed','Julia'}
+print('william' in myset)                      #show True or False  (in)
+myset.add("James")        #use method
+myset.update(myset2)
+myset.discard('John')         #remove item
 print(myset)
+
 
