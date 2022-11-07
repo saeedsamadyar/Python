@@ -25,6 +25,7 @@ print('-----------------------------')
 set = {1,2,3,4}
 set2 = {'a','b','c','d'}
 set3 = set2.union(set)
+#set = set.update(set2)
 print(set3)
 
 
