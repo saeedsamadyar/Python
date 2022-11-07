@@ -11,7 +11,7 @@ myset2 = {'Mohammed','Saeed','Julia'}
 print('william' in myset)                      #show True or False  (in)
 myset.add("James")        #use method
 myset.update(myset2)
-myset.discard('John')         #remove item
+myset.discard('John')         #remove item of list
 print(myset)
 
 
