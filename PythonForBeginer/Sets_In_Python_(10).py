@@ -34,7 +34,10 @@ my_set = {"a","b","c","d","IBM","apple"}
 my_set2 = {"Microsoft","IBM","apple"}
 my_set3 = my_set.intersection_update(my_set)              #update
 my_set.symmetric_difference_update(my_set2)
+print(type(my_set2))
 print(my_set3)
+
+
 
 print('-----------------------------')
 
