@@ -1,4 +1,4 @@
-# Dictionaries                     ()Tuples          [] List
+# Dictionaries                     ()Tuples          [] List         {} Set
 # --------------------------------
 
 me = {
@@ -59,5 +59,18 @@ print(me)
 
 print('-----------------------------')
 
-me.pop('name')              # remove key
+#me.pop('name')              # remove key
+print(me)
+
+print('--------------------------------')
+
+me.popitem()                 # remove last item
+print(me)
+
+print('--------------------------------')
+
+del me['name']              #remove key
+print(me)
+
+me.clear()
 print(me)
