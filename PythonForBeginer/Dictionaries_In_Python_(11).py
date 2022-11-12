@@ -91,7 +91,32 @@ print('--------------------------------')
 
 print('---------------------------------')
 
-me = dict(me2)          # dict is a function is doing copy of dectionary
+me = dict(me2)  # dict is a function is doing copy of dictionary
 me['color'] = 'red'
 me['marriage'] = 'single'
 print(me)
+
+print('-------------------------------')
+
+# Nested Dictionaries
+
+
+myfamily = {
+
+child_1: {                               # key 1
+    "name": 'johnni',
+    "lastname": 'mahsoon',
+    "age": '28'
+},
+
+
+child_2: {                               # key 2
+    "name": 'jackson',
+    "familyname": 'booker',
+    "age": '29'
+},
+
+    "child_1": child_1,
+    "child_2": child_2,
+
+}
