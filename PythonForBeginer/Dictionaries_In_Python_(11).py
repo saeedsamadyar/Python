@@ -23,7 +23,7 @@ print(me)
 
 print('---------------------------------')
 
-me = {
+me = {                          #Dictionary
     "name": "william",
     "lastname": "booker",
     "age": 29
@@ -60,7 +60,7 @@ print(x)
 
 print('----------------------------')
 
-me["age"] = 47  # change value in key
+me['age'] = 47  # change value in key
 me['Friend'] = "Julia"  # Add key and value in dictionary
 me.update({"age": 98})  # change value in key
 print(me)
@@ -92,8 +92,8 @@ print('--------------------------------')
 print('---------------------------------')
 
 me = dict(me2)  # dict is a function is doing copy of dictionary
-me['color'] = 'red'
-me['marriage'] = 'single'
+me['color'] = 'red'                 # add key to dictionary
+me['marriage'] = 'single'           # add key to dictionary
 print(me)
 
 print('-------------------------------')
