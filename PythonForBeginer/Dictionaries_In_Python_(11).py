@@ -91,6 +91,7 @@ print('--------------------------------')
 
 print('---------------------------------')
 
-me = dict(me2)          # dict is a function is doing copy of list
-me['colors'] = 'red'
+me = dict(me2)          # dict is a function is doing copy of dectionary
+me['color'] = 'red'
+me['marriage'] = 'single'
 print(me)
