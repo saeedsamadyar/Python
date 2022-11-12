@@ -43,7 +43,7 @@ print(me)
 print('----------------------------')
 
 age = '33'
-# txt = "my age is: " + str(age)
+txt = "my age is: " + str(age)
 city = 'nyc'
 txt = f'{age} {city}'                           #format string
 print(txt)

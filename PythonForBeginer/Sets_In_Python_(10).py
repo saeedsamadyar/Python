@@ -46,6 +46,10 @@ my_set = {"a","b","c","d","IBM","apple"}
 my_set1 = {"Microsoft","IBM","apple"}
 print(my_set | my_set1)
 
+print('------------------------------')
+
+
+
 
 
 
