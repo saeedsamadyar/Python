@@ -47,5 +47,17 @@ print(y)
 
 print('----------------------------')
 
-x = "name" in me
+x = "name" in me           #boolian
 print(x)
+
+print('----------------------------')
+
+me["age"] = 47             # change value in key
+me['Friend'] = "Julia"     # Add key and value in dictionary
+me.update({"age": 98})     # change value in key
+print(me)
+
+print('-----------------------------')
+
+me.pop('name')              # remove key
+print(me)
