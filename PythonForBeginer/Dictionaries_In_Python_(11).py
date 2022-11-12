@@ -1,13 +1,13 @@
 # Dictionaries
 # --------------------------------
 
-me  = {
+me = {
     "name": "John",
     "lastname": "Booker",
     "age": 25,
     "Burn": 1989,
-    "friends": ['william','john','philip'],                   #list
-    "Happy": False                                            #boolian
+    "friends": ['william', 'john', 'philip'],  # list
+    "Happy": False  # boolian
 }
 print(type(me))
 print(len(me))
@@ -15,3 +15,22 @@ print(me)
 
 print('---------------------------------')
 
+me = {
+    "name": "william",
+    "lastname": "booker",
+    "age": 29
+}
+myname = me["name"]
+myage = me["age"]
+print(myname)
+print(myage)
+
+print('---------------------------')
+
+myname = me.get('name')       #get method
+print(myname)
+
+print('---------------------------')
+
+x = me.keys()                 #keys method
+print(me)
