@@ -1,4 +1,4 @@
-# Dictionaries
+# Dictionaries                     ()Tuples          [] List
 # --------------------------------
 
 me = {
@@ -27,10 +27,20 @@ print(myage)
 
 print('---------------------------')
 
-myname = me.get('name')       #get method
+myname = me.get('name')  # get method
 print(myname)
 
 print('---------------------------')
 
-x = me.keys()                 #keys method
+x = me.keys()  # keys method
 print(me)
+
+print('-----------------------------')
+
+x = me.values()             #value method
+print(x)
+
+print('----------------------------')
+
+y = me.items()              #items method
+print(y)
