@@ -44,3 +44,8 @@ print('----------------------------')
 
 y = me.items()              #items method
 print(y)
+
+print('----------------------------')
+
+x = "name" in me
+print(x)
