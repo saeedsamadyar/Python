@@ -1,6 +1,6 @@
 # Dictionaries                     ()Tuples          [] List         {} Set
 # --------------------------------
-# first list
+# first dictionary
 me = {
     "name": "John",
     "lastname": "Booker",
@@ -9,7 +9,7 @@ me = {
     "friends": ['william', 'john', 'philip'],  # list
     "Happy": False  # boolian
 }
-# second list
+# second dictionary
 me2 = {
     "name": "saeed",
     "lastname": "s",
@@ -100,23 +100,22 @@ print('-------------------------------')
 
 # Nested Dictionaries
 
-
 myfamily = {
 
-child_1: {                               # key 1
+get1: {                               # key 1
     "name": 'johnni',
     "lastname": 'mahsoon',
     "age": '28'
 },
 
-
-child_2: {                               # key 2
+get2: {                               # key 2
     "name": 'jackson',
     "familyname": 'booker',
     "age": '29'
 },
 
-    "child_1": child_1,
-    "child_2": child_2,
+    # "get1": get1,
+    # "get2": get2,
 
 }
+
