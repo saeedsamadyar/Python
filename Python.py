@@ -342,3 +342,4 @@ dict1 = {
 dict2 = dict1.copy()
 dict2['friend'] = 'jolia'
 print(dict2)
+print(type(dict2))

@@ -105,13 +105,13 @@ myfamily = {
 get1: {                               # key 1
     "name": 'johnni',
     "lastname": 'mahsoon',
-    "age": '28'
+    "age": 28
 },
 
 get2: {                               # key 2
     "name": 'jackson',
     "familyname": 'booker',
-    "age": '29'
+    "age": 29
 },
 
     # "get1": get1,
