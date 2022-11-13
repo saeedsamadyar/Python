@@ -140,6 +140,7 @@ myfamily = {
     }
 
 }
+myfamily['child1'] = 'Single'
 
 print(myfamily['child1'])
 print(myfamily['child2'])
