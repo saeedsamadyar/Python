@@ -316,3 +316,11 @@ print(txt)
 me  = f'my name is { name} and my last name is { lastname} '
 print(me)
 # --------------------------------------------------
+
+print('--------------------------------------')
+
+x = 18.0
+y = 4
+z = 18.5 // 4
+print(z)
+print(type(z))
