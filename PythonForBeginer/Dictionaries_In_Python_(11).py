@@ -103,22 +103,32 @@ print('-------------------------------')
 
 myfamily = {
 
-    dic_1 : {                                    # key 1
+    dict : {                                    # key 1
         "name": 'johnni',
         "lastname": 'mahsoon',
         "age": 28
     },
 
-
-    dic_2: {                                  # key 2
-    "name": 'jackson',
-    "familyname": 'booker',
-    "age": 29
-},
-
-"dic_1": dic_1,
-"dic_2": dic_2,
-
+    dict : {                                     # key 2
+     "name": 'jackson',
+     "familyname": 'booker',
+     "age": 29
+     }
 }
+
+
+
+
+#     family2: {                                   # key 2
+#     "name": 'jackson',
+#     "familyname": 'booker',
+#     "age": 29
+#     },
+#     family2 = dict(family1)
+#     print(family1)
+
+
+
+
 
 
