@@ -17,7 +17,7 @@ me2 = {
     "age": 35,
     "myfriend": ['mojan', 'depi', 'willia', 'jessi']
 }
-me2 = dict(me)                # copy of me
+me2 = dict(me)  # copy of me
 me2['color'] = 'green'
 print(type(me))
 print(len(me))
@@ -104,17 +104,17 @@ print('-------------------------------')
 
 myfamily = {
 
-    dict : {                                    # key 1
+    dict: {  # key 1
         "name": 'johnni',
         "lastname": 'mahsoon',
         "age": 28
     },
 
-    dict : {                                     # key 2
-     "name": 'jackson',
-     "familyname": 'booker',
-     "age": 29
-     }
+    dict: {  # key 2
+        "name": 'jackson',
+        "familyname": 'booker',
+        "age": 29
+    }
 }
 
 #     family2: {                                   # key 2
@@ -124,9 +124,20 @@ myfamily = {
 #     },
 #     family2 = dict(family1)
 #     print(family1)
+print('---------------------------')
 
+myfamily = {
+    'child1': {
+        "name": 'John',
+        "familyname": 'william',
+        "age": 38
+    },
 
+    'child2': {
+        "name": 'jesi',
+        "familyname": 'pinkmqn',
 
+    }
 
-
-
+}
+print(myfamily['child2']),
