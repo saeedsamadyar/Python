@@ -82,63 +82,64 @@ print(Z)
 w = 'Hello saeed'
 print(w)
 # ------------------------------------
-x= [13, 58, 7]
+x = [13, 58, 7]
 print(x)
 # -----------------------------------
 x = [14, 57, 6]
 print(x[0])
 print(x[2])
 # -------------------------------------
-#List
+# List
 x = [16, 60, 20]
-x[2]=67
+x[2] = 67
 print(x)
 # -----------------------------------
-#Tuple
+# Tuple
 x = (1, 5, 8)
 print(x)
 # -----------------------------------
-(x,y,z)=6,10,19
+(x, y, z) = 6, 10, 19
 print(x)
 print(y)
 print(z)
 # ------------------------------------
 import math
+
 x = 10
 print(math.exp(x))
 print(math.sqrt(6))
-max(1,34,4966)
+max(1, 34, 4966)
 # ------------------------------------
-#list
-num = [1,2,3,4]
+# list
+num = [1, 2, 3, 4]
 print(num)
 # ------------------------------------
-letter = ['a','b','c','d']
+letter = ['a', 'b', 'c', 'd']
 print(letter)
-stg = ['get','certified','get','ahead']
+stg = ['get', 'certified', 'get', 'ahead']
 # ------------------------------------
-mix = [1,6,"IAmSaeed","get","certified"]
+mix = [1, 6, "IAmSaeed", "get", "certified"]
 print(mix)
 # ------------------------------------
-mat = [[1,2],['a','b']]
+mat = [[1, 2], ['a', 'b']]
 print(mat)
 # -------------------------------------
 x = 30
 y = 67
-result = x+y
+result = x + y
 print(result)
 # ------------------------------------
 x = 20
 y = 100
-result = x*y
+result = x * y
 print(result)
 # -----------------------------------
 x = 13
 y = 10
-result = x//y
+result = x // y
 print(result)
 # -----------------------------------
-#string
+# string
 var = "Saeed"
 print(var[4])
 print(var[3])
@@ -226,61 +227,62 @@ print(y)
 Z = 500 * 100
 print(Z)
 # -------------------------------------
-w= 'Hello saeed'
+w = 'Hello saeed'
 print(w)
 # ------------------------------------
-x= [13, 58, 7]
+x = [13, 58, 7]
 print(x)
 # -----------------------------------
 x = [14, 57, 6]
 print(x[0])
 print(x[2])
 # -------------------------------------
-#List
+# List
 x = [16, 60, 20]
-x[2]=67
+x[2] = 67
 print(x)
 # -----------------------------------
-#Tuple
+# Tuple
 x = (1, 5, 8)
 print(x)
 # -----------------------------------
-(x,y,z)=6,10,19
+(x, y, z) = 6, 10, 19
 print(x)
 print(y)
 print(z)
 # ------------------------------------
 import math
+
 x = 10
 print(math.exp(x))
 print(math.sqrt(6))
-max(1,34,4966)
+max(1, 34, 4966)
 # ------------------------------------
-#list
-num = [1,2,3,4]
+# list
+num = [1, 2, 3, 4]
 print(num)
 # ------------------------------------
-letter = ['a','b','c','d']
+letter = ['a', 'b', 'c', 'd']
 print(letter)
-stg = ['get','certified','get','ahead']
+stg = ['get', 'certified', 'get', 'ahead']
 # ------------------------------------
-mix = [1,6,"IAmSaeed","get","certified"]
+mix = [1, 6, "IAmSaeed", "get", "certified"]
 mix[3]
 mix[-2]
 mix[:3]
 print(mix)
 # ------------------------------------
-mat = [[1,2],['a','b']]
+mat = [[1, 2], ['a', 'b']]
 print(mat)
 # -------------------------------------
-z = [0]*100
+z = [0] * 100
 print(z)
 # -------------------------------------
 var = list("hey there")
 print(var)
 # ------------------------------------
-#numbers
-x = [9,17,14,4,90,55]
+# numbers
+x = [9, 17, 14, 4, 90, 55]
 len(x)
 min(x)
 max(x)
@@ -288,15 +290,15 @@ sum(x)
 sum(x)
 #### --------------------------------------
 sum(x)
-#------------------------------------------
-#NewProject
+# ------------------------------------------
+# NewProject
 age = input("how old are you:")
-print("your age is ",age, "yes")
-#--------------------------------------------
+print("your age is ", age, "yes")
+# --------------------------------------------
 print('-----------------------------')
-print(type(180))                         # this is integere
-print(type(182.5))                       # this is float
-print(type(149j))                        # this is complex
+print(type(180))  # this is integere
+print(type(182.5))  # this is float
+print(type(149j))  # this is complex
 # --------------------------------------------
 x = '125'
 print(int(x))
@@ -306,14 +308,14 @@ name = "SAEED"
 lastname = "SA"
 City = "NYC"
 # Z = name +" "+lastname+" "+ City
-Z = f'{name} {lastname} {City}'     #format string
+Z = f'{name} {lastname} {City}'  # format string
 print(Z)
 # ------------------------------------------------
-age  = 33
+age = 33
 txt = "my age is:" + str(age)
 print(txt)
 # ------------------------------------------------
-me  = f'my name is { name} and my last name is { lastname} '
+me = f'my name is {name} and my last name is {lastname} '
 print(me)
 # --------------------------------------------------
 
@@ -324,3 +326,19 @@ y = 4
 z = 18.5 // 4
 print(z)
 print(type(z))
+
+print('-------------------------------------')
+
+dict1 = {
+    "name": "julia",
+    "lastname": "pinkman",
+    "age": 29
+}
+# dict2 ={
+#     "name": "jack"
+#     "lastname": "johson"
+#     "age": 41
+
+dict2 = dict1.copy()
+dict2['friend'] = 'jolia'
+print(dict2)
