@@ -140,4 +140,6 @@ myfamily = {
     }
 
 }
-print(myfamily['child2']),
+print(myfamily['child1'])
+print(myfamily['child2'])
+print(type('child1'))
