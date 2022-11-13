@@ -140,6 +140,7 @@ myfamily = {
     }
 
 }
+
 print(myfamily['child1'])
 print(myfamily['child2'])
 print(type('child1'))
