@@ -1,15 +1,15 @@
 # If else
 
 if True:
-  print('hello')
+    print('helloo')
 
-# if False:
-#     print('Hola')
+if False:
+    print('Hola')
 
-  print('-------------------------')
+    print('-------------------------')
 
 a = 33
 b = 25
 
 if a > b:
-  print('a less than b')
+    print('a less than b')
