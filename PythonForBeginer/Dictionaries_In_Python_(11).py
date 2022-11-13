@@ -1,7 +1,6 @@
 # Dictionaries                     ()Tuples          [] List         {} Set
 # --------------------------------
 # first dictionary
-from Python import dict1, dict2
 
 me = {
     "name": "John",
@@ -104,21 +103,21 @@ print('-------------------------------')
 
 myfamily = {
 
-    dict1: {                                    # key 1
+    dic_1 : {                                    # key 1
         "name": 'johnni',
         "lastname": 'mahsoon',
         "age": 28
     },
 
 
-    dict2: {                                    # key 2
+    dic_2: {                                  # key 2
     "name": 'jackson',
     "familyname": 'booker',
     "age": 29
 },
 
-"dict1": dict2,
-"dict1": dict2,
+"dic_1": dic_1,
+"dic_2": dic_2,
 
 }
 
