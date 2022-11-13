@@ -127,14 +127,14 @@ myfamily = {
 print('---------------------------')
 
 myfamily = {
-    'child1': {
-        "name": 'John',
+    'child1': {                                     # Key one
+        "name": 'John',                             #Item
         "familyname": 'william',
         "age": 38
     },
 
-    'child2': {
-        "name": 'jesi',
+    'child2': {                                      # Key two
+        "name": 'jesi',                              #Item
         "familyname": 'pinkman',
 
     }
