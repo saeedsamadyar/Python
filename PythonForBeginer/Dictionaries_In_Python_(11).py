@@ -17,10 +17,11 @@ me2 = {
     "age": 35,
     "myfriend": ['mojan', 'depi', 'willia', 'jessi']
 }
-
+me2 = dict(me)                # copy of me
+me2['color'] = 'green'
 print(type(me))
 print(len(me))
-print(me)
+print(me2)
 
 print('---------------------------------')
 
@@ -115,9 +116,6 @@ myfamily = {
      "age": 29
      }
 }
-
-
-
 
 #     family2: {                                   # key 2
 #     "name": 'jackson',
