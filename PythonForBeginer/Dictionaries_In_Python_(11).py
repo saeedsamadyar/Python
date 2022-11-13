@@ -1,6 +1,8 @@
 # Dictionaries                     ()Tuples          [] List         {} Set
 # --------------------------------
 # first dictionary
+from Python import dict1, dict2
+
 me = {
     "name": "John",
     "lastname": "Booker",
@@ -23,7 +25,7 @@ print(me)
 
 print('---------------------------------')
 
-me = {                          #Dictionary
+me = {  # Dictionary
     "name": "william",
     "lastname": "booker",
     "age": 29
@@ -92,8 +94,8 @@ print('--------------------------------')
 print('---------------------------------')
 
 me = dict(me2)  # dict is a function is doing copy of dictionary
-me['color'] = 'red'                 # add key to dictionary
-me['marriage'] = 'single'           # add key to dictionary
+me['color'] = 'red'  # add key to dictionary
+me['marriage'] = 'single'  # add key to dictionary
 print(me)
 
 print('-------------------------------')
@@ -102,20 +104,20 @@ print('-------------------------------')
 
 myfamily = {
 
-get1: {                               # key 1
-    "name": 'johnni',
-    "lastname": 'mahsoon',
-    "age": 28
-},
+    dict1: {                                    # key 1
+        "name": 'johnni',
+        "lastname": 'mahsoon',
+        "age": 28
+    },
 
-get2: {                               # key 2
+
+    dict2: {                                    # key 2
     "name": 'jackson',
     "familyname": 'booker',
     "age": 29
 },
 
-    # "get1": get1,
-    # "get2": get2,
+"dict1": dict2,
+"dict1": dict2,
 
-}
-
+print('--------------------------------')
