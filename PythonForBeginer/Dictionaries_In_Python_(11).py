@@ -142,7 +142,10 @@ myfamily = {
 }
 myfamily['child1'] = 'Single'
 myfamily['child2'] = 'married'
+
 print(myfamily)
+
 # print(myfamily['child1'])
 # print(myfamily['child2'])
 #print(type('child1'))
+
