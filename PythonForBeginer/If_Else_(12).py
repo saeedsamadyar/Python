@@ -13,6 +13,9 @@ b = 25
 
 if a > b:
     print('a less than b')
+# or
+
+print("a") if a > b else print("a")
 
 print('--------------------------')
 
@@ -38,6 +41,7 @@ if a != b:  # not equal
 elif a < b:
     print('a is less than b')
 else:
+
     print('right')
 
 print('-------------------------')
@@ -49,6 +53,5 @@ elif a > b:
 else:
     print('Hi my name is john')
 
-
-
+print('-------------------------')
 
