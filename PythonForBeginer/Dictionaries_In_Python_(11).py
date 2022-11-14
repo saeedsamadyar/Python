@@ -127,14 +127,14 @@ myfamily = {
 print('---------------------------')
 
 myfamily = {
-    'child1': {                                     # Key one
-        "name": 'John',                             #Item
+    'child1': {  # Key one
+        "name": 'John',  # Item
         "familyname": 'william',
         "age": 38
     },
 
-    'child2': {                                      # Key two
-        "name": 'jesi',                              #Item
+    'child2': {  # Key two
+        "name": 'jesi',  # Item
         "familyname": 'pinkman',
 
     }
@@ -147,5 +147,4 @@ print(myfamily)
 
 # print(myfamily['child1'])
 # print(myfamily['child2'])
-#print(type('child1'))
-
+# print(type('child1'))
