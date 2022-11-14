@@ -13,6 +13,7 @@ b = 25
 
 if a > b:
     print('a less than b')
+
 # or
 
 print("a") if a > b else print("a")
