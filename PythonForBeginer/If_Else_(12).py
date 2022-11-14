@@ -39,3 +39,12 @@ elif a < b:
     print('a is less than b')
 else:
     print('right')
+
+print('-------------------------')
+
+if a == b:
+    print('a equal b')
+elif a > b:
+    print('a is gtreater than b')
+else:
+    print('Hi my name is john')
