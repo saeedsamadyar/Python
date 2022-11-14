@@ -16,7 +16,7 @@ if a > b:
 
 # or
 
-print("a") if a > b else print("a")
+print("a") if a > b else print("b")
 
 print('--------------------------')
 
