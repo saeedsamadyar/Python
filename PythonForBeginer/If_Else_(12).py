@@ -30,3 +30,12 @@ elif a < b:
     print('a is less than b')
 elif a > b:
     print('right')
+
+print('--------------------------')
+
+if a != b:  # not equal
+    print('a not equal b')
+elif a < b:
+    print('a is less than b')
+else:
+    print('right')
