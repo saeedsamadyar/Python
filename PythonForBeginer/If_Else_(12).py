@@ -15,3 +15,16 @@ if a > b:
     print('a less than b')
 
 print('--------------------------')
+
+if a != b:  # not equal
+    print('a not equal b')
+
+if a < b:
+    print('a is less than b')
+
+print('--------------------------')
+
+if a != b:  # not equal
+    print('a not equal b')
+elif a < b:
+    print('a is less than b')
