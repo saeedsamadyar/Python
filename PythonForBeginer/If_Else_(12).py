@@ -62,3 +62,12 @@ c = 30
 if a < b and a != b:
     print('fallen')
 
+print('--------------------------')
+
+# a = 10
+# b = 30
+# c = 40
+# if a < b or != a and a < b:
+# print('true')
+
+
