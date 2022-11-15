@@ -36,6 +36,3 @@ while i < 6:
 
 else:
     print("i is  no longer less than 6")
-
-
-
