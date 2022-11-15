@@ -20,11 +20,22 @@ print('-------------------------')
 
 print('--------------------------')
 
-num3 = 1
-while num3 < 10:
-    num3 += 1
-    if num3 == 10:
-        break
-    print(num3)
+# num3 = 1
+# while num3 < 10:
+#     num3 += 1
+#     if num3 == 10:
+#         break
+#     print(num3)
+
+print('---------------------------')
+
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+
+else:
+    print("i is  no longer less than 6")
+
 
 
