@@ -1,12 +1,12 @@
 # while
 
-while True:
-    print('Hello!')
-    print('GoodBy')
+# while True:
+#     print('Hello!')
+#     print('GoodBy')
 
 print('------------------------')
 
 num = 1
 while num < 6:
-    print()
+    print(num)
     num = num + 1
