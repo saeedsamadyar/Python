@@ -6,7 +6,9 @@ if stored_password == entered_password:
     print('you logged in successfully')
 
 else:
-    print(' you are wrong')
+    print('you are wrong')
+
+
 
 
 
