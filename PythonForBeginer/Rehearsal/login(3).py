@@ -14,3 +14,5 @@ if entered_username in users:
 
 else:
     print('sorry, you are not our user')
+
+print('--------------------------------')
