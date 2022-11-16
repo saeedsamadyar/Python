@@ -10,10 +10,6 @@ while entered_password != stored_password:
     continue
 
 if entered_password == stored_password:
-
-    continue
-
-if entered_password == stored_password:
     print('you logged successfully')
 
 
