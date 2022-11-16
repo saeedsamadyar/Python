@@ -1,5 +1,4 @@
 
-
 stored_password = "123456"
 
 entered_password = input('please enter your password: ')
