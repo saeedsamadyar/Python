@@ -14,5 +14,6 @@ while entered_username in users and users[entered_username] == entered_password:
 else:
 
     if entered_username in users and users[entered_username] != entered_password:
-        print('sorry, you are not our user, Try again')
+        print('sorry, you are not our user')
+
 
