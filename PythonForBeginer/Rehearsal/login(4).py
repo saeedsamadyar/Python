@@ -25,8 +25,4 @@ else:
 
     if entered_username in users and users[entered_username] == entered_password:
         print('You loged in.')
-#
-# else:
-#
-#     if entered_username in users and users[entered_username] == entered_password:
-#         print('you right.!')
+
