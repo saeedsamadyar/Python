@@ -7,11 +7,19 @@ users = {  # dictionary
 entered_username = input('Please enter your username: ')
 entered_password = input('Please enter your password: ')
 
-if entered_username in users and users[entered_username] == entered_password:
-    print('congrats, you are our user')
+# if entered_username in users and users[entered_username] == entered_password:
+#     print('congrats, you are our user')
+#
+# else:
+#
+#         print('sorry, you are not our user')
 
-else:
+print('---------------------------------')
 
-        print('sorry, you are not our user')
+while entered_username not in users or users[entered_username] != entered_password:
+    print('your username and password is wrong')
+    entered_username = input('Please enter your username:')
+    entered_password = input('Please enter your password:')
 
+    print('You loged in.')
 
