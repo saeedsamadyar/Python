@@ -21,5 +21,12 @@ while entered_username not in users or users[entered_username] != entered_passwo
     entered_username = input('Please enter your username:')
     entered_password = input('Please enter your password:')
 
-    print('You loged in.')
+else:
 
+    if entered_username in users and users[entered_username] == entered_password:
+        print('You loged in.')
+#
+# else:
+#
+#     if entered_username in users and users[entered_username] == entered_password:
+#         print('you right.!')
