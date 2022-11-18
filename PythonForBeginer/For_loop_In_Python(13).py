@@ -7,19 +7,19 @@
 #     print(items)
 #     print('baayy')
 
-print('-------------------------------')
+# print('-------------------------------')
 
 # name = ["Jessi"]
 #
 # for x in name:
 #     print(x)
 
-print('-------------------------------')
+# print('-------------------------------')
 
 my_family = ['John', 'william', 'philip', 'jessi']
 
 for item in my_family:
-    if item == 'jessi':
+    if item == "philip":
+        break
 
-
-        print(item)
+print(item)
