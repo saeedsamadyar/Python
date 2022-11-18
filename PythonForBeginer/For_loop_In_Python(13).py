@@ -16,10 +16,20 @@
 
 # print('-------------------------------')
 
-my_family = ['John', 'william', 'philip', 'jessi']
+# my_family = ['John', 'william', 'philip', 'jessi']
+#
+# for item in my_family:
+#     if item == "philip":
+#         break
+#
+# print(item)
+#
+# print('---------------------------------')
 
-for item in my_family:
-    if item == "philip":
-        break
+company = ['ibaar', 'apple', 'google', 'Tesla']
 
-print(item)
+for car in company:
+    if car == "google":
+        continue
+
+        print(car)
