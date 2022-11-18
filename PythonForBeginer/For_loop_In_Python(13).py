@@ -48,10 +48,11 @@ print('---------------------------------')
 #
 print('-----------------------------')
 
-company = ['Apple','Google','Tesla','Samsung']
-name = ['john','booker','jessi','walter']
+company = ['Apple','Google','Tesla','Samsung']          # list
+name = ['john','booker','jessi','walter']               # list
 
 for item in company:
     for items in name:
+
 
         print(item,items)
