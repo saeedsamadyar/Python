@@ -36,12 +36,22 @@ print('---------------------------------')
 #
 print('---------------------------------')
 
-number = 0
+# number = 0
+#
+# for x in range(19):
+#     number =+ 1
+#
+#     print(x)
+#
+# else:
+#     print('finished')
+#
+print('-----------------------------')
 
-for x in range(19):
-    number =+ 1
+company = ['Apple','Google','Tesla','Samsung']
+name = ['john','booker','jessi','walter']
 
-    print(x)
+for item in company:
+    for items in name:
 
-else:
-    print('finished')
+        print(item,items)
