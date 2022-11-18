@@ -24,12 +24,21 @@
 #
 # print(item)
 #
-# print('---------------------------------')
+print('---------------------------------')
+#
+# name = ['ibaar', 'apple', 'google', 'Tesla']
+#
+# for item in name:
+#     if item == "google":
+#         continue
+#
+#         print(item)
+#
+print('---------------------------------')
 
-company = ['ibaar', 'apple', 'google', 'Tesla']
+number = 0
 
-for x in company:
-    if x == "google":
-        continue
+for x in range(1,15, 2):
+    number =+ 1
 
-        print()
+    print(x)
