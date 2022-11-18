@@ -38,7 +38,10 @@ print('---------------------------------')
 
 number = 0
 
-for x in range(1,15, 2):
+for x in range(19):
     number =+ 1
 
     print(x)
+
+else:
+    print('finished')
