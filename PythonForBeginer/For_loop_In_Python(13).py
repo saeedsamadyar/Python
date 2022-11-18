@@ -48,6 +48,8 @@ print('---------------------------------')
 #
 print('-----------------------------')
 
+# Nested Loops
+
 company = ['Apple','Google','Tesla','Samsung']          # list
 name = ['john','booker','jessi','walter']               # list
 
