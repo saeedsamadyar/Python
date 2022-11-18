@@ -28,8 +28,8 @@
 
 company = ['ibaar', 'apple', 'google', 'Tesla']
 
-for car in company:
-    if car == "google":
+for x in company:
+    if x == "google":
         continue
 
-        print(car)
+        print()
