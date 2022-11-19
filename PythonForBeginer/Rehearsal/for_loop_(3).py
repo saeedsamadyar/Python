@@ -6,5 +6,5 @@ name = name.strip()
 b =[]
 for n in name:
     if n not in b:
-        print(f"you name has {name.count(n)} {n}")
+        print(f"your name has {name.count(n)} {n}")
         b.append(n)
