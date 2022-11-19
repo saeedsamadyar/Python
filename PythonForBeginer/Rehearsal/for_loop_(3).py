@@ -1,6 +1,7 @@
 name = input('Please enter your fullname: ')
 name = name.lower()
 name = name.replace(" ","")
+name = name.strip()
 
 b =[]
 for n in name:
