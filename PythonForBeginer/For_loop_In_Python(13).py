@@ -56,5 +56,4 @@ name = ['john','booker','jessi','walter']               # list
 for item in company:
     for items in name:
 
-
         print(item,items)
