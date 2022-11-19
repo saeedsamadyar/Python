@@ -1,10 +1,11 @@
 
-names = ['william','john','jessi','rose','max']
+names = ['william','john','jessi','rose','max','julia']
 
 b = []
 
 for name in names:
-    if name[0] == "a":
+    if name[0] == "r":
         b.append(name)
 
-        print(len(b))
+        print(b)
+        print(type(b))
