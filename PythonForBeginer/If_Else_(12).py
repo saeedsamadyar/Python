@@ -70,6 +70,15 @@ print('--------------------------')
 # if a < b or != a and a < b:
 # print('true')
 
+print('---------------------------')
+
+x = 1
+if x == 1:
+    print("wow")
+elif x < 2:
+    print("woow")
+else:
+    print("no wow!")
 
 
 
