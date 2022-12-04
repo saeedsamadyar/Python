@@ -1,0 +1,5 @@
+1) start
+2) input l,w
+3) a => l * w
+4) print (a)
+5) stop
