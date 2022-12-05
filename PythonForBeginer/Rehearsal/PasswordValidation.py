@@ -1,5 +1,7 @@
 
-def passwordvalidation(password):
+
+def passvalidation(password):
+
     if len(password) < 8:
         print("your password must be at least 8 character")
     elif password.isnumric():
@@ -9,7 +11,7 @@ def passwordvalidation(password):
     else:
         print("your password is currect")
 
-
         while True:
-            password = ("Please enter your password:" )
-            passwordvalidation(password)
+            password = input("Please enter your password: ")
+
+            passvalidation(password)
