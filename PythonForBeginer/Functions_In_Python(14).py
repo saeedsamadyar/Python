@@ -31,8 +31,8 @@ def fullname(name, lastname):
 print("---------------------------------")
 
 def callname(fname, lname):
-    print(f"{fname} + " " + {lname}" )
+    print(f"{fname} +""+ {lname}")
 
-    callname(fname = "jessi", lname = "pinkman")
+    callname(fname="jessi", lname="pinkman")
 
 
