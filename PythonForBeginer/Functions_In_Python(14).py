@@ -76,7 +76,14 @@ print('---------------------------')
 def myname(lname, fname, *args, **kwargs):
     print(lname)
     print(fname)
-    print(args)
-    print(kwargs)
+    print(args)      #Tuples
+    print(kwargs)    #Dictionary
 
     myname("booker", "jessi", "will", "john", age=33, city="nyc", Team="tajbibi")
+
+print('-----------------------------')
+
+def name(fname="jessi",lname="booker"):
+    print(f"my name is: {fname}{lname}")
+
+    name()
