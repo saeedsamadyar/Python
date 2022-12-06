@@ -87,3 +87,12 @@ def name(fname="jessi",lname="booker"):
     print(f"my name is: {fname}{lname}")
 
     name()
+
+
+print('-----------------------------')
+
+def name(a):
+    for names in a:
+        print(f"my name is:{name}")
+
+        name("jessi")
