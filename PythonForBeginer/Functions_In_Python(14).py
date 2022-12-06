@@ -65,4 +65,4 @@ def hello(lname, fname, *name):          #*argesTuples
     print(lname)
     print(name)          #*arges
 
-hello("john","jessi","alia")
+hello("john","jessi","alia","jessi","julia")
