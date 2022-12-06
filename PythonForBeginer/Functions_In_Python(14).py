@@ -18,10 +18,10 @@ def my_name(name, lastname):
 print("-----------------------------------")
 
 
-def sum(a, b):     #parametre
+def sum(a, b):  # parametre
     print(a + b)
 
-    sum(a=2, b=4)    #argumant
+    sum(a=2, b=4)  # argumant
 
 
 print("--------------------------------")
@@ -58,11 +58,25 @@ def hello(*names):  # *arges Tuples
 
         hello("john", "willi", "jessi")
 
+
 print("------------------------------")
 
-def hello(lname, fname, *name):          #*argesTuples
+
+def hello(lname, fname, *name):  # *argesTuples
     print(fname)
     print(lname)
-    print(name)          #*arges
+    print(name)  # *arges
 
-hello("john","jessi","alia","jessi","julia")
+
+hello("john", "jessi", "alia", "jessi", "julia")
+
+print('---------------------------')
+
+
+def myname(lname, fname, *args, **kwargs):
+    print(lname)
+    print(fname)
+    print(args)
+    print(kwargs)
+
+    myname("booker", "jessi", "will", "john", age=33, city="nyc", Team="tajbibi")
