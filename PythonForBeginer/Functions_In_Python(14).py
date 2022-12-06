@@ -93,6 +93,6 @@ print('-----------------------------')
 
 def name(a):
     for names in a:
-        print(f"my name is:{name}")
+        print(f"my name is:{names}")
 
         name("jessi")
