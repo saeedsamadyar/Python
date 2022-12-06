@@ -45,13 +45,13 @@ def callname(fname, lname):
 print("--------------------------------")
 
 
-def callname(fname, lname, *args):  # arges means tuples
+def callname(fname, lname, *args):  # *arges means tuples
     print(f"hello{fname}{lname}")
     callname("jessi", "pinkman", "willlii")
 
     print("----------------------------")
 
-def hello(*names):
+def hello(*names):                # *arges Tuples
     for a in names:
         print(f"hello{a}")
         hello("john", "willi", "jessi")
