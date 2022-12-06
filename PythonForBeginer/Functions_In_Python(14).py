@@ -18,10 +18,10 @@ def my_name(name, lastname):
 print("-----------------------------------")
 
 
-def sum(a, b):
+def sum(a, b):     #parametre
     print(a + b)
 
-    sum(a=2, b=4)
+    sum(a=2, b=4)    #argumant
 
 
 print("--------------------------------")
@@ -51,7 +51,8 @@ def callname(fname, lname, *args):  # *arges means tuples
 
     print("----------------------------")
 
-def hello(*names):                # *arges Tuples
-    for a in names:
-        print(f"hello{a}")
+
+def hello(*names):  # *arges Tuples
+    for name in names:
+        print(f"hello{name}")
         hello("john", "willi", "jessi")
