@@ -84,7 +84,7 @@ def myname(lname, fname, *args, **kwargs):
 print('-----------------------------')
 
 def name(fname="jessi",lname="booker"):
-    print(f"my name is: {fname}{lname}")
+    print(f"my fullname is: {fname}{lname}")
 
     name()
 
