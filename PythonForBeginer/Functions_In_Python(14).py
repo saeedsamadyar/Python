@@ -107,6 +107,7 @@
 # def sum(a, b):
 #     a += 1
 #     b += 3
+#     c = 10
 #
 #     return (a, b)
 # result = sum(3, 5)
