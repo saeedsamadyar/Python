@@ -133,10 +133,21 @@ def validation(username):
     else:
         return True
 
-
 if validation(username):
-    print("Your username is right.!")
+    print("Your username is right.! It`s done")
 
 else:
-    print("your username is wrong.!")
+    if username == validation(username):
+        print('your entered username is wrong.!')
+        username = input('please enter username: ')
 
+# else:
+#     print("your username is wrong.!")
+
+
+# while username != validation(username):
+#     username = input('Your entered username is wrong.! please enter username: ')
+#     continue
+# # else:
+#     if username < validation(username):
+#         print('your entered username is right.!')
