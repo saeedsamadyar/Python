@@ -104,11 +104,18 @@
 # print("-----------------------------")
 #
 
-def sum(a, b):
-    a += 1
-    b += 3
+# def sum(a, b):
+#     a += 1
+#     b += 3
+#
+#     return (a, b)
+# result = sum(3, 5)
+# for item in result:
+#     print(item)
+#
+#     print('----------------------------')
 
-    return (a, b)
-result = sum(3, 5)
-for item in result:
-    print(item)
+def sum(a, b):
+    return a + b
+    result = (sum(12+5))
+    print(result)
