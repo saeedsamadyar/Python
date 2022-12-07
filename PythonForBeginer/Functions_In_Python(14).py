@@ -124,6 +124,20 @@
 #
 # print('-----------------------------')
 
-username = input('Please enter your username: ')
+firstname = input('Please enter your firstname: ')
+lastname = input('Please enter your lastname:')
 
 
+def username(firstname, lastname):
+    print(firstname)
+    print(lastname)
+
+
+while firstname == lastname:
+    print("your username is right")
+    break
+else:
+    print("your username is wrong")
+    username(firstname="saeed", lastname="samadyar")
+
+# username("john", "booker")
