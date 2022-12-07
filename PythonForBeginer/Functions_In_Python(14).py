@@ -116,38 +116,14 @@
 #
 #     print('----------------------------')
 
-def sum(a, b):
-    return a + b
-    result = (sum(12 + 5))
-    print(result)
-
-
-print('-----------------------------')
+# def sum(a, b):
+#     return a + b
+#     result = (sum(12 + 5))
+#     print(result)
+#
+#
+# print('-----------------------------')
 
 username = input('Please enter your username: ')
 
 
-def validation(username):
-    if len(username) > 8:  # len character
-        return False
-    else:
-        return True
-
-if validation(username):
-    print("Your username is right.! It`s done")
-
-else:
-    if username == validation(username):
-        print('your entered username is wrong.!')
-        username = input('please enter username: ')
-
-# else:
-#     print("your username is wrong.!")
-
-
-# while username != validation(username):
-#     username = input('Your entered username is wrong.! please enter username: ')
-#     continue
-# # else:
-#     if username < validation(username):
-#         print('your entered username is right.!')
