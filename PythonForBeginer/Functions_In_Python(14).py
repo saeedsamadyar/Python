@@ -17,6 +17,13 @@ def my_name(name, lastname):
 
 print("-----------------------------------")
 
+def myname(name, lastname):
+    print(f"hello{name}")
+    print(f"hello{lastname}")
+
+    myname('James','Porter')
+
+print('----------------------------------')
 
 def sum(a, b):  # parametre
     print(a + b)

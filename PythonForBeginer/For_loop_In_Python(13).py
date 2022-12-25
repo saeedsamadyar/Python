@@ -26,14 +26,14 @@
 #
 print('---------------------------------')
 #
-# name = ['ibaar', 'apple', 'google', 'Tesla']
-#
-# for item in name:
-#     if item == "google":
-#         continue
-#
-#         print(item)
-#
+name = ['ibaar', 'apple', 'google', 'Tesla']
+
+for item in name:
+    if item == "google":
+        continue
+
+        print(item)
+
 print('---------------------------------')
 
 # number = 0
@@ -49,11 +49,12 @@ print('---------------------------------')
 print('-----------------------------')
 
 # Nested Loops
-
-company = ['Apple','Google','Tesla','Samsung']          # list
-name = ['john','booker','jessi','walter']               # list
-
-for item in company:
-    for items in name:
-
-        print(item,items)
+#
+# company = ['Apple','Google','Tesla','Samsung']          # list
+# name = ['john','booker','jessi','walter']               # list
+#
+# for item in company:
+#     for items in name:
+#
+#         print(item,items)
+#
