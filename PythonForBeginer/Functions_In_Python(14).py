@@ -135,5 +135,10 @@ def hello(b):
     for item in b:
         print(f"hello{item}")
 
-        mylist = ["john","nik","noor","will"]    #list
-        hello(mylist)
+        mylist = ["john", "nik", "noor", "will"]  # list
+
+    hello(mylist)
+
+    print('----------------------------')
+
+
