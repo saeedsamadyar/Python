@@ -54,7 +54,7 @@ print("--------------------------------")
 
 def callname(fname, lname, *args):  # *arges means tuples
     print(f"hello{fname}{lname}")
-    callname("jessi", "pinkman", "willlii")
+    callname("jessi", "pinkman", "willlii")     # Tuple
 
     print("----------------------------")
 
@@ -131,3 +131,9 @@ def sum(a, b):
 
 print('-----------------------------')
 
+def hello(b):
+    for item in b:
+        print(f"hello{item}")
+
+        mylist = ["john","nik","noor","will"]
+        hello(mylist)
