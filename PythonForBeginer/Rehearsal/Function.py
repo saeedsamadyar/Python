@@ -14,5 +14,6 @@ def func(name):
     print(f"lower Case is:{lows}")
 
 name = input("Please enter your name:")
+while
 
 func(name)
