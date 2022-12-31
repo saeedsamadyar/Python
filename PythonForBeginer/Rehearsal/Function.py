@@ -12,6 +12,8 @@ def func(name):
     print(f"upper Case is:{ups}")
     print(f"lower Case is:{lows}")
 
-name = input("Please enter your name: ")
 
-func(name)
+while True:
+    name = input("Please enter your name: ")
+    func(name)
+
