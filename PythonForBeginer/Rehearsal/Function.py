@@ -6,12 +6,12 @@ def func(name):
             ups += 1
         elif item.islower():  # method
             lows += 1
-        else:
+    else:
 
-            pass
-        print(f"upper Case is:{ups}")
-        print(f"lower Case is:{lows}")
+        pass
 
+    print(f"upper Case is:{ups}")
+    print(f"lower Case is:{lows}")
 
 name = input("Please enter your name:")
 
