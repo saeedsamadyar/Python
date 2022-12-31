@@ -7,13 +7,11 @@ def func(name):
         elif item.islower():  # method
             lows += 1
     else:
-
         pass
 
     print(f"upper Case is:{ups}")
     print(f"lower Case is:{lows}")
 
-name = input("Please enter your name:")
-while
+name = input("Please enter your name: ")
 
 func(name)
