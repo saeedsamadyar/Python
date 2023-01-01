@@ -34,17 +34,17 @@
 #     print('-----------------------------')
 #
 def convertor(day, month, year):
-    if month > 10 or day > 10 and month == 10:
-        birthday = year + 622
+    if month > 10 or day > 10 and month != 10:
+
+      birth = year + 622
     else:
-        birthday = year + 621
+     birth = year + 621
 
-
-print(f"Your date of birth is: {birthday}")
-
-day = int(input("Please enter your day: "))
-month = int(input("Please enter your month: "))
-year = int(input("Please enter your year: "))
+print(f"Your date of birth is: {birth}")
 
 while True:
- convertor(day, month, year)
+    day = int(input("Please enter your day: "))
+    month = int(input("Please enter your month: "))
+    year = int(input("Please enter your year: "))
+
+    convertor(day, month, year)
