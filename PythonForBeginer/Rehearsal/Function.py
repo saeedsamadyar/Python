@@ -26,5 +26,9 @@ def numbertype(number):
         print("This is an odd number")
 
 while True:
-    number = int(input("Please enter a number: "))
-    numbertype(number)
+    numberOne = int(input("Please enter a number: "))    #Change string to integer
+    numbertype(numberOne)
+
+    print('-----------------------------')
+
+
