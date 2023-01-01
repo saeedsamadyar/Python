@@ -16,19 +16,35 @@
 # while True:
 #     name = input("Please enter your name: ")
 #     func(name)
+
+
 #
 # print('-------------------------------')
 
-def numbertype(number):
-    if number % 2 == 0:
-        print("This is an even number")
+# def numbertype(number):
+#     if number % 2 == 0:
+#         print("This is an even number")
+#     else:
+#         print("This is an odd number")
+#
+# while True:
+#     numberOne = int(input("Please enter a number: "))    #Change string to integer
+#     numbertype(numberOne)
+#
+#     print('-----------------------------')
+#
+def convertor(day, month, year):
+    if month > 10:
+        birth = year + 622
+    elif day > 10 and month == 10:
+        birth = year + 622
     else:
-        print("This is an odd number")
+        birth = year + 621
 
-while True:
-    numberOne = int(input("Please enter a number: "))    #Change string to integer
-    numbertype(numberOne)
+print(f"The date of your birthday is: {birth}")
 
-    print('-----------------------------')
+day = int(input("Please enter your day: "))
+month = int(input("Please enter your month: "))
+year = int(input("Please enter your year: "))
 
-
+convertor(day, month, year)
