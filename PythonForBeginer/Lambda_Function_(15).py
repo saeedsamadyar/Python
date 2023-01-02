@@ -7,23 +7,26 @@
 #
 # print('-------------------------------')
 
-def myfunc(n):
-    def new(a):
-        return a * n
-
-    return new
-
-
-#  mydoubler = myfunc(2)
-
-mytripler = myfunc(3)
-
-print(mytripler(2))
+# def myfunc(n):
+#     def new(a):
+#         return a * n
+#
+#     return new
+#
+#
+# #mydoubler = myfunc(2)
+# mytripler = myfunc(3)
+#
+# print(mytripler(2))
 
 print('--------------------------')
 
-#     return lambda a : a * n
-#
-# mydoubler = myfunc(2)
-#
-# print(mydoubler(5))
+
+def myfunc(n):
+
+
+    return lambda a: a * n
+
+mydoubler = myfunc(2)
+
+print(mydoubler(5))
