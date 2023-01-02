@@ -16,11 +16,11 @@
 # while True:
 #     name = input("Please enter your name: ")
 #     func(name)
-
-
+#
+#
 #
 # print('-------------------------------')
-
+#
 # def numbertype(number):
 #     if number % 2 == 0:
 #         print("This is an even number")
@@ -32,13 +32,13 @@
 #     numbertype(numberOne)
 #
 #     print('-----------------------------')
-#
-def convertor(day, month, year):
-    if month > 10 or day > 10 and month != 10:
 
-      birth = year + 622
+def convertor(day, month, year):
+    if month >= 10 or day >= 10 and month != 10:
+          birth = year + 622
     else:
-     birth = year + 621
+          birth = year + 622
+
 
 print(f"Your date of birth is: {birth}")
 
