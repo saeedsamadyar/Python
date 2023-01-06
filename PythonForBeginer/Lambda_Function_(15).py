@@ -41,7 +41,8 @@ print('--------------------------')
 # print(list(x))
 #
 # print('--------------------------')
-##Map_Function
+##Map_Function    Iterable means tuple or list or ...
+
 # mylist = [1, 2, 3, 4, 5, 6, 7, 8]
 #
 # x = map(lambda a: a * 2, mylist)
