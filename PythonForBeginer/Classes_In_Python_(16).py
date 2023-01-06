@@ -11,7 +11,6 @@
 
 print('------------------------')
 
-
 class MyClass:
 
     def __int__(self, name, lastname):
