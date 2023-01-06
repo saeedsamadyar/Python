@@ -21,11 +21,29 @@
 
 print('--------------------------')
 
+#
+# def myfunc(n):
+#
+#     return lambda a: a * n
+#
+# mydoubler = myfunc(2)
+#
+# print(mydoubler(5))
+#
+# print('-------------------------')
+#
+# mylist = [1, 2, 3, 4, 5, 6, 7, 8]
+#
+# def myfunction(number):
+#     return number * 2
+#
+# x = map(myfunction, mylist)
+# print(list(x))
+#
+# print('--------------------------')
 
-def myfunc(n):
+mylist = [1, 2, 3, 4, 5, 6, 7, 8]
 
-    return lambda a: a * n
+x = map(lambda a: a * 2, mylist)
 
-mydoubler = myfunc(2)
-
-print(mydoubler(5))
+print(list(x))
