@@ -41,10 +41,29 @@ print('--------------------------')
 # print(list(x))
 #
 # print('--------------------------')
+##Map_Function
+# mylist = [1, 2, 3, 4, 5, 6, 7, 8]
+#
+# x = map(lambda a: a * 2, mylist)
+#
+# print(list(x))
+#
+# print('----------------------------')
+#
+# mylist = [1, 2, 3, 4, 5]
+# mylist_2 = [2, 3, 4, 6]
+#
+# x = list(map(lambda a, b: a * b, mylist, mylist_2))
+#
+# print(x)
+#
+# print('------------------------------')
 
-mylist = [1, 2, 3, 4, 5, 6, 7, 8]
+mylist = [1, 2, 3, 4, 5]
+b = []
 
-x = map(lambda a: a * 2, mylist)
+for item in mylist:
+    b.append(item * 2)
 
-print(list(x))
+    print(b)
 
