@@ -2,7 +2,7 @@ class MyClass:
 
 
  x = 2  # Prpperty
- y = 4
+ y = 4  # property
 
 p1 = MyClass()  # Objest1
 p2 = MyClass()  # Object2
