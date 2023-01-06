@@ -47,3 +47,4 @@ mylist = [1, 2, 3, 4, 5, 6, 7, 8]
 x = map(lambda a: a * 2, mylist)
 
 print(list(x))
+
