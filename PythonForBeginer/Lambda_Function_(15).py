@@ -54,10 +54,10 @@ print('--------------------------')
 # mylist = [1, 2, 3, 4, 5]
 # mylist_2 = [2, 3, 4, 6]
 #
-# x = list(map(lambda a, b: a * b, mylist, mylist_2))
+# x = list(map(lambda a, b: a * b, mylist, mylist_2))         # list is casting
 #
 # print(x)
-#
+
 # print('------------------------------')
 
 mylist = [1, 2, 3, 4, 5]
