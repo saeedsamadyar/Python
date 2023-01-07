@@ -43,7 +43,7 @@ class personal:
     def __int__(self):
         print("Hello my world!")
 
-        p1 = personal()
+        p1 = personal()      #object
 
         print(p1)
 
