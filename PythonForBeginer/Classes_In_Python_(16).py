@@ -38,12 +38,31 @@
 #         print(p4.myage)
 #
 # print('-----------------------------')
+#
+# class personal:
+#     def __int__(self):
+#         print("Hello my world!")
+#
+#         p1 = personal()  # object
+#
+#         print(p1)
+#
+#
+# print('---------------------------------')
 
-class personal:
-    def __int__(self):
-        print("Hello my world!")
 
-        p1 = personal()      #object
+class MyClass:
+    def __int__(self, name, lastname, age):
+        self.myname = name
+        self.mylastname = lastname
+        self.myage = age
 
-        print(p1)
 
+def fullname(self):
+    # print(f"hey I am {self.myname} {self.mylastname}")
+    print(self.myname)
+    print(self.mylastname)
+
+    p1 = MyClass("John", "will", "24")
+
+    p1.fullname()
