@@ -57,9 +57,8 @@ class MyClass:
         self.mylastname = lastname
         self.myage = age
 
-
 def fullname(self):
-    # print(f"hey I am {self.myname} {self.mylastname}")
+    #print(f"hey I am {self.myname} {self.mylastname}")
     print(self.myname)
     print(self.mylastname)
 
