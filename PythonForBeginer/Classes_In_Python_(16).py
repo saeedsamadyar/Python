@@ -62,6 +62,6 @@ def fullname(self):
     print(self.myname)
     print(self.mylastname)
 
-    p1 = MyClass("John", "will", "24")
+    p1 = MyClass("John", "will", "24")    #object
 
     p1.fullname()
