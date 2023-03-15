@@ -1,7 +1,8 @@
-from chargpt import ChatGPT
+from chatgpt import ChatGPT
 
 chatbot = ChatGPT()
+while True:
+    text = input("You: ")
+    response = chatbot.generate_response(text)
 
-response = chatbot.generate_response("Hello, how are you?")
-
-print(response)
+    print("Chatbot:", response)
