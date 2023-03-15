@@ -50,18 +50,32 @@
 #
 # print('---------------------------------')
 
+#
+# class MyClass:
+#     def __int__(self, name, lastname, age):
+#         self.myname = name
+#         self.mylastname = lastname
+#         self.myage = age
+
+
+# def fullname(self):
+#     # print(f"hey I am {self.myname} {self.mylastname}")
+#     print(self.myname)
+#     print(self.mylastname)
+#
+#     p1 = MyClass("John", "will", "24")  # object
+#
+#     p1.fullname()
 
 class MyClass:
-    def __int__(self, name, lastname, age):
+    def __init__(self, name, lastname, age):
         self.myname = name
         self.mylastname = lastname
         self.myage = age
 
-def fullname(self):
-    #print(f"hey I am {self.myname} {self.mylastname}")
-    print(self.myname)
-    print(self.mylastname)
+    def fullname(self):
+        print(f"Hey I am {self.myname} {self.mylastname}")
 
-    p1 = MyClass("John", "will", "24")    #object
 
-    p1.fullname()
+p1 = MyClass("John", "will", "24")
+p1.fullname()
