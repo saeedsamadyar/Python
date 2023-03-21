@@ -76,6 +76,7 @@ class MyClass:
     def fullname(self):
         print(f"Hey I am {self.myname} {self.mylastname}")
 
-
 p1 = MyClass("John", "will", "24")
 p1.fullname()
+
+
