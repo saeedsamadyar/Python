@@ -1,0 +1,37 @@
+TDD (Test-Driven Development)
+
+Test-Driven Development (TDD) is a software development approach where developers write a test case for a piece of functionality before writing the actual code. Once the test case is written, developers write code to fulfill that test case. Once the code is complete, the developer runs the test case and checks if it passes. If it fails, the developer makes adjustments to the code, and then runs the test case again. This cycle of writing a test case, writing code, and running the test case is repeated until the code passes the test case.
+
+Example:
+Suppose a developer is tasked with creating a function that adds two numbers. The developer would start by writing a test case that tests if the function correctly adds two numbers. Here is an example:
+
+def test_addition():
+    assert addition(2, 3) == 5
+
+Note that this test case is checking if the addition function correctly adds 2 and 3 together and returns 5.
+
+Once the test case is written, the developer would write code to implement the addition function. Here is an example implementation:
+
+def addition(a, b):
+    return a + b
+
+Next, the developer would run the test case:
+
+test_addition()
+
+If the function correctly adds the two numbers together and returns the expected result (in this case, 5), the test case will pass. If it fails, the developer will make adjustments to the code and run the test case again.
+
+BDD (Behavior-Driven Development)
+
+Behavior-Driven Development (BDD) is a software development approach that focuses on the behavior of the software rather than its implementation. Like TDD, BDD also involves writing tests before writing code, but these tests are written in a specific format that emphasizes the behavior of the software. The approach involves identifying the desired behavior of the software and then writing test cases that verify that behavior.
+
+Example:
+Suppose a developer is tasked with creating a function that calculates the average of a list of numbers. Here is an example BDD test case that describes the behavior of the function:
+
+Given a list of numbers
+When the average function is called with that list
+Then the function should return the correct average
+
+Note that this test case is written in a specific format that emphasizes the behavior of the software. The Given statement sets up the context of the test (in this case, the list of numbers), the When statement describes the action being taken (calling the average function), and the Then statement describes the expected outcome of the test (the function should return the correct average).
+
+Once this test case is written, the developer would write code to implement the average function. The test case would then be run to verify that the function behaves according to the behavior described in the test case.
