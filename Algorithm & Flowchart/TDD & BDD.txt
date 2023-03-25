@@ -21,6 +21,8 @@ test_addition()
 
 If the function correctly adds the two numbers together and returns the expected result (in this case, 5), the test case will pass. If it fails, the developer will make adjustments to the code and run the test case again.
 
+----------------------------------------------------
+
 BDD (Behavior-Driven Development)
 
 Behavior-Driven Development (BDD) is a software development approach that focuses on the behavior of the software rather than its implementation. Like TDD, BDD also involves writing tests before writing code, but these tests are written in a specific format that emphasizes the behavior of the software. The approach involves identifying the desired behavior of the software and then writing test cases that verify that behavior.
