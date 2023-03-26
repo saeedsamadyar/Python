@@ -1,0 +1,29 @@
+    Test Case 1: Login validation
+
+    Test Scenario 1: Valid login credentials
+    Test Scenario 2: Invalid login credentials
+    Test Scenario 3: Login with empty fields
+
+    Test Case 2: Search functionality
+
+    Test Scenario 1: Search for a valid term and verify results
+    Test Scenario 2: Search for an invalid term and verify no results
+    Test Scenario 3: Verify search suggestions
+
+    Test Case 3: Email functionality
+
+    Test Scenario 1: Send an email with valid recipient and content
+    Test Scenario 2: Send an email with invalid recipient and verify error message
+    Test Scenario 3: Verify email reply functionality
+
+    Test Case 4: Account settings
+
+    Test Scenario 1: Verify change password functionality
+    Test Scenario 2: Verify email notification settings
+    Test Scenario 3: Verify account deletion functionality
+
+    Test Case 5: News and entertainment
+
+    Test Scenario 1: Verify article search and read function
+    Test Scenario 2: Verify related articles feature
+    Test Scenario 3: Verify video functionality
