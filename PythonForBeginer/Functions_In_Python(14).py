@@ -140,4 +140,10 @@ def hello(b):
     hello(mylist)
 
     print('----------------------------')
+    
+def print_nation(*people):
+    for person in people:
+        print("Person name is:", person)
 
+print_nation("james", "jimmi", "john", "alex", "flip")
+ 
