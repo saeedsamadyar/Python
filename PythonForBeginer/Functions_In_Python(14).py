@@ -128,7 +128,6 @@ def sum(a, b):
     result = (sum(12 + 5))
     print(result)
 
-
 print('-----------------------------')
 
 def hello(b):
@@ -140,10 +139,21 @@ def hello(b):
     hello(mylist)
 
     print('----------------------------')
-    
+
 def print_nation(*people):
     for person in people:
         print("Person name is:", person)
 
 print_nation("james", "jimmi", "john", "alex", "flip")
  
+ print('---------------------------')
+
+def do_math(num1, num2):
+    sum = num1 + num2
+    return sum
+
+math1 = do_math(5, 7)
+math2 = do_math(6, 13)
+
+print("The first sum is", math1, "and the second sum is", math2)
+
