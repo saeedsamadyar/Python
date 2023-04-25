@@ -62,3 +62,9 @@ assert "QA Test" in driver.title
 
 # close the browser window when testing is complete
 driver.quit()
+
+
+
+
+
+
