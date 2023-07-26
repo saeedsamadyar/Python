@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # create a new Chrome driver instance
-driver = webdriver.Chrome(executable_path="/Users/saeed/Downloads/chromedriver")
+driver = webdriver.Chrome(executable_path="/Users/saeed/Downloads/chromedriver.exe")
 
 # Test case 1: Verify that the website loads successfully without any errors.
 driver.get("https://derivfe.github.io/qa-test/")
