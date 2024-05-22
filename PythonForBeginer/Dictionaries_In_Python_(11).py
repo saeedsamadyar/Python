@@ -117,13 +117,13 @@ myfamily = {
     }
 }
 
-#     family2: {                                   # key 2
-#     "name": 'jackson',
-#     "familyname": 'booker',
-#     "age": 29
-#     },
-#     family2 = dict(family1)
-#     print(family1)
+    # family2: {                                   # key 2
+    # "name": 'jackson',
+    # "familyname": 'booker',
+    # "age": 29
+    # },
+    # family2 = dict(family1)
+    # print(family1)
 print('---------------------------')
 
 myfamily = {
